@@ -19,8 +19,8 @@ var dispatch = d3_dispatch('apiStatusChange', 'authLoading', 'authDone', 'change
 
 
 
-// Overpass-API Server ( https://github.com/icemagno/osmid )
-var urlroot = 'http://sisgeodef.defesa.mil.br:36745';
+
+var urlroot = 'https://www.openstreetmap.org';
 
 
 
