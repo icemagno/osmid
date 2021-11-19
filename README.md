@@ -1,0 +1,2 @@
+# osmid
+Editor OSM 
