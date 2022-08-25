@@ -11,6 +11,10 @@ docker run --name overpass --hostname=overpass \
   -e OVERPASS_PLANET_URL=https://download.geofabrik.de/south-america/brazil/sudeste-latest.osm.bz2 \
   -e OVERPASS_DIFF_URL=https://planet.openstreetmap.org/replication/minute/ \
   -e OVERPASS_RULES_LOAD=10 \
+  -e OVERPASS_FASTCGI_PROCESSES=6 \
   -v /srv/overpass/:/db \
   -p 36745:80 \
-  -d hiparco/overpass-api:1.0
+  -d wiktorn/overpass-api
+
+
+# https://github.com/wiktorn/Overpass-API
